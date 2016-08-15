@@ -67,7 +67,7 @@ For quick testing XS algorithms
 
 =pkgroup Web-Development
 
-=pkg Task::Dancer2
+=pkg Dancer2
 
 A nice and easy to use web framework
 
