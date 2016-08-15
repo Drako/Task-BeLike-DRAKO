@@ -69,7 +69,7 @@ For quick testing XS algorithms
 
 =pkg Task::Dancer2
 
-Dancer2 and useful addons
+A nice and easy to use web framework
 
 
 
@@ -101,7 +101,7 @@ Because everybody should use Git
 
 Useful for projects hosted on Github
 
-=pkg PodWeaver 4 For POD generation
+=pkg Pod::Weaver 4 For POD generation
 
 =pkg Pod::Elemental::Transformer::List
 
