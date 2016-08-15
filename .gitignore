@@ -1,0 +1,6 @@
+# dist stuff
+/Task-BeLike-DRAKO-*.tar.gz
+/Task-BeLike-DRAKO-*/
+
+# sublime
+*.sublime*
