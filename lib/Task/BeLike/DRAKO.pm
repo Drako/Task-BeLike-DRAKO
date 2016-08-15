@@ -1,9 +1,9 @@
-package Task::BeLike::DRAKO;
-
 use 5.024;
 use utf8;
 use warnings;
 use strict;
+
+package Task::BeLike::DRAKO;
 
 # ABSTRACT: be more like DRAKO -- use what he uses
 
@@ -15,7 +15,9 @@ __END__
 
 =pkgroup Archiving / Compression
 
-=pkg Archive::Zip For working with .zip archives
+=pkg Archive::Zip
+
+For working with .zip archives
 
 =pkg Compress::LZ4Frame 0.011001 For fast compression and decompression of data
 
@@ -23,15 +25,25 @@ __END__
 
 =pkgroup Code Quality
 
-=pkg Perl::Critic The standard
+=pkg Perl::Critic
 
-=pkg Perl::Critic::Lax Some not so strict rules for Perl::Critic
+The standard
 
-=pkg Perl::Tidy The other standard
+=pkg Perl::Critic::Lax
 
-=pkg Devel::Cover Check code coverage
+ot so strict rules for Perl::Critic
 
-=pkg Const::Fast For named constants
+=pkg Perl::Tidy
+
+The other standard
+
+=pkg Devel::Cover
+
+Check code coverage
+
+=pkg Const::Fast
+
+For named constants
 
 =pkg Try::Tiny::Retry
 
@@ -43,23 +55,33 @@ times before failing.
 
 =pkgroup Performance
 
-=pkg Devel::NYTProf Great profiler for finding bottlenecks
+=pkg Devel::NYTProf
 
-=pkg Inline::C For quick testing XS algorithms
+Great profiler for finding bottlenecks
+
+=pkg Inline::C
+
+For quick testing XS algorithms
 
 
 
 =pkgroup Web-Development
 
-=pkg Task::Dancer2 Dancer2 and useful addons
+=pkg Task::Dancer2
+
+Dancer2 and useful addons
 
 
 
 =pkgroup Package management
 
-=pkg App::cpanminus My favorite cpan client
+=pkg App::cpanminus
 
-=pkg App::cpm Maybe my new favorite cpan client
+My favorite cpan client
+
+=pkg App::cpm
+
+Maybe my new favorite cpan client
 
 
 
@@ -67,26 +89,42 @@ times before failing.
 
 =pkg Dist::Zilla 5 You don't want to make dists without it
 
-=pkg Dist::Zilla::PluginBundle::Starter Better than the old Basic
+=pkg Dist::Zilla::PluginBundle::Starter
 
-=pkg Dist::Zilla::PluginBundle::Git Because everybody should use Git
+Better than the old Basic
 
-=pkg Dist::Zilla::Plugin::GithubMeta Useful for projects hosted on Github
+=pkg Dist::Zilla::PluginBundle::Git
+
+Because everybody should use Git
+
+=pkg Dist::Zilla::Plugin::GithubMeta
+
+Useful for projects hosted on Github
 
 =pkg PodWeaver 4 For POD generation
 
-=pkg Pod::Elemental::Transformer::List So PodWeaver can make list cool
+=pkg Pod::Elemental::Transformer::List
+
+So PodWeaver can make list cool
 
 
 
 =pkgroup Other libraries
 
-=pkg Moose The standard OO library
+=pkg Moose
 
-=pkg Data::Dumper For all your variable dumping needs
+The standard OO library
 
-=pkg Log::Log4perl For logging
+=pkg Data::Dumper
 
-=pkg Devel::PPPort For a better XS development experience
+For all your variable dumping needs
+
+=pkg Log::Log4perl
+
+For logging
+
+=pkg Devel::PPPort
+
+For a better XS development experience
 
 =cut
